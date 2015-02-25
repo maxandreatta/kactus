@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2B9E99C71A9DE8CB0001F496 /* KTUIColor+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */; };
 		2B9E99C81A9DE8CB0001F496 /* KTUIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */; };
+		2B9E99C91A9DE9590001F496 /* KTUIColor+Utility.h in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */; };
+		2B9E99CA1A9DE9590001F496 /* KTUIColor+Utility.m in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */; };
 		2BAD2CB71A9DD6D5006729D4 /* kactus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD2CB61A9DD6D5006729D4 /* kactus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BAD2CBD1A9DD6D6006729D4 /* kactus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAD2CB11A9DD6D5006729D4 /* kactus.framework */; };
 		2BAD2CC41A9DD6D6006729D4 /* kactusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD2CC31A9DD6D6006729D4 /* kactusTests.m */; };
@@ -207,6 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9E99C91A9DE9590001F496 /* KTUIColor+Utility.h in Resources */,
+				2B9E99CA1A9DE9590001F496 /* KTUIColor+Utility.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
