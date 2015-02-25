@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "KTUIColor+Utility.h"
+
 //! Project version number for kactus.
 FOUNDATION_EXPORT double kactusVersionNumber;
 
