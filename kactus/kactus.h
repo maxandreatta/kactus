@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "KTUIColor+Utility.h"
-
 //! Project version number for kactus.
 FOUNDATION_EXPORT double kactusVersionNumber;
 
@@ -18,4 +16,10 @@ FOUNDATION_EXPORT const unsigned char kactusVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <kactus/PublicHeader.h>
 
-
+#import "KTNSDate+Utility.h"
+#import "KTUIColor+Utility.h"
+#import "KTNSString+LeftPadding.h"
+#import "KTNSString+Utility.h"
+#import "KTUILabel+VAlign.h"
+#import "KTUIView+Utility.h"
+#import "KTUIImage+Utility.h"

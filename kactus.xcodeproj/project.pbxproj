@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2A5E781A9DFFE700A12B80 /* KTUIImage+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2A5E761A9DFFE700A12B80 /* KTUIImage+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2A5E791A9DFFE700A12B80 /* KTUIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A5E771A9DFFE700A12B80 /* KTUIImage+Utility.m */; };
+		2B2A5E841A9E005C00A12B80 /* KTNSDate+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2A5E7A1A9E005C00A12B80 /* KTNSDate+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2A5E851A9E005C00A12B80 /* KTNSDate+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A5E7B1A9E005C00A12B80 /* KTNSDate+Utility.m */; };
+		2B2A5E861A9E005C00A12B80 /* KTNSString+LeftPadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2A5E7C1A9E005C00A12B80 /* KTNSString+LeftPadding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2A5E871A9E005C00A12B80 /* KTNSString+LeftPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A5E7D1A9E005C00A12B80 /* KTNSString+LeftPadding.m */; };
+		2B2A5E881A9E005C00A12B80 /* KTNSString+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2A5E7E1A9E005C00A12B80 /* KTNSString+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2A5E891A9E005C00A12B80 /* KTNSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A5E7F1A9E005C00A12B80 /* KTNSString+Utility.m */; };
+		2B2A5E8A1A9E005C00A12B80 /* KTUILabel+VAlign.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2A5E801A9E005C00A12B80 /* KTUILabel+VAlign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2A5E8B1A9E005C00A12B80 /* KTUILabel+VAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A5E811A9E005C00A12B80 /* KTUILabel+VAlign.m */; };
+		2B2A5E8C1A9E005C00A12B80 /* KTUIView+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2A5E821A9E005C00A12B80 /* KTUIView+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2A5E8D1A9E005C00A12B80 /* KTUIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A5E831A9E005C00A12B80 /* KTUIView+Utility.m */; };
 		2B9E99C71A9DE8CB0001F496 /* KTUIColor+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B9E99C81A9DE8CB0001F496 /* KTUIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */; };
 		2BAD2CB71A9DD6D5006729D4 /* kactus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD2CB61A9DD6D5006729D4 /* kactus.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B2A5E761A9DFFE700A12B80 /* KTUIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIImage+Utility.h"; sourceTree = "<group>"; };
+		2B2A5E771A9DFFE700A12B80 /* KTUIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIImage+Utility.m"; sourceTree = "<group>"; };
+		2B2A5E7A1A9E005C00A12B80 /* KTNSDate+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSDate+Utility.h"; sourceTree = "<group>"; };
+		2B2A5E7B1A9E005C00A12B80 /* KTNSDate+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTNSDate+Utility.m"; sourceTree = "<group>"; };
+		2B2A5E7C1A9E005C00A12B80 /* KTNSString+LeftPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSString+LeftPadding.h"; sourceTree = "<group>"; };
+		2B2A5E7D1A9E005C00A12B80 /* KTNSString+LeftPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTNSString+LeftPadding.m"; sourceTree = "<group>"; };
+		2B2A5E7E1A9E005C00A12B80 /* KTNSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSString+Utility.h"; sourceTree = "<group>"; };
+		2B2A5E7F1A9E005C00A12B80 /* KTNSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTNSString+Utility.m"; sourceTree = "<group>"; };
+		2B2A5E801A9E005C00A12B80 /* KTUILabel+VAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUILabel+VAlign.h"; sourceTree = "<group>"; };
+		2B2A5E811A9E005C00A12B80 /* KTUILabel+VAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUILabel+VAlign.m"; sourceTree = "<group>"; };
+		2B2A5E821A9E005C00A12B80 /* KTUIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIView+Utility.h"; sourceTree = "<group>"; };
+		2B2A5E831A9E005C00A12B80 /* KTUIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIView+Utility.m"; sourceTree = "<group>"; };
 		2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIColor+Utility.h"; sourceTree = "<group>"; };
 		2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIColor+Utility.m"; sourceTree = "<group>"; };
 		2BAD2CB11A9DD6D5006729D4 /* kactus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kactus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +81,18 @@
 		2B9E99C41A9DE8BC0001F496 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2B2A5E7A1A9E005C00A12B80 /* KTNSDate+Utility.h */,
+				2B2A5E7B1A9E005C00A12B80 /* KTNSDate+Utility.m */,
+				2B2A5E7C1A9E005C00A12B80 /* KTNSString+LeftPadding.h */,
+				2B2A5E7D1A9E005C00A12B80 /* KTNSString+LeftPadding.m */,
+				2B2A5E7E1A9E005C00A12B80 /* KTNSString+Utility.h */,
+				2B2A5E7F1A9E005C00A12B80 /* KTNSString+Utility.m */,
+				2B2A5E801A9E005C00A12B80 /* KTUILabel+VAlign.h */,
+				2B2A5E811A9E005C00A12B80 /* KTUILabel+VAlign.m */,
+				2B2A5E821A9E005C00A12B80 /* KTUIView+Utility.h */,
+				2B2A5E831A9E005C00A12B80 /* KTUIView+Utility.m */,
+				2B2A5E761A9DFFE700A12B80 /* KTUIImage+Utility.h */,
+				2B2A5E771A9DFFE700A12B80 /* KTUIImage+Utility.m */,
 				2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */,
 				2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */,
 			);
@@ -123,6 +159,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2A5E841A9E005C00A12B80 /* KTNSDate+Utility.h in Headers */,
+				2B2A5E781A9DFFE700A12B80 /* KTUIImage+Utility.h in Headers */,
+				2B2A5E881A9E005C00A12B80 /* KTNSString+Utility.h in Headers */,
+				2B2A5E861A9E005C00A12B80 /* KTNSString+LeftPadding.h in Headers */,
+				2B2A5E8C1A9E005C00A12B80 /* KTUIView+Utility.h in Headers */,
+				2B2A5E8A1A9E005C00A12B80 /* KTUILabel+VAlign.h in Headers */,
 				2B9E99C71A9DE8CB0001F496 /* KTUIColor+Utility.h in Headers */,
 				2BAD2CB71A9DD6D5006729D4 /* kactus.h in Headers */,
 			);
@@ -224,7 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2A5E791A9DFFE700A12B80 /* KTUIImage+Utility.m in Sources */,
+				2B2A5E851A9E005C00A12B80 /* KTNSDate+Utility.m in Sources */,
+				2B2A5E871A9E005C00A12B80 /* KTNSString+LeftPadding.m in Sources */,
+				2B2A5E891A9E005C00A12B80 /* KTNSString+Utility.m in Sources */,
 				2B9E99C81A9DE8CB0001F496 /* KTUIColor+Utility.m in Sources */,
+				2B2A5E8D1A9E005C00A12B80 /* KTUIView+Utility.m in Sources */,
+				2B2A5E8B1A9E005C00A12B80 /* KTUILabel+VAlign.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

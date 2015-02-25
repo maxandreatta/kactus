@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name = 'kactus'
-    spec.version = '1.0.2'
+    spec.version = '1.0.3'
     spec.authors = { 'Andreatta Massimiliano' => 'massimiliano.andreatta@gmail.com' }
     spec.homepage = 'https://github.com/maxandreatta/kactus'
     spec.summary = 'A framework for iOS'
