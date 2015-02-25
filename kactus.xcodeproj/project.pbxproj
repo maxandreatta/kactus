@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9E99C71A9DE8CB0001F496 /* KTUIColor+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */; };
+		2B9E99C81A9DE8CB0001F496 /* KTUIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */; };
 		2BAD2CB71A9DD6D5006729D4 /* kactus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD2CB61A9DD6D5006729D4 /* kactus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BAD2CBD1A9DD6D6006729D4 /* kactus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAD2CB11A9DD6D5006729D4 /* kactus.framework */; };
 		2BAD2CC41A9DD6D6006729D4 /* kactusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD2CC31A9DD6D6006729D4 /* kactusTests.m */; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIColor+Utility.h"; sourceTree = "<group>"; };
+		2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIColor+Utility.m"; sourceTree = "<group>"; };
 		2BAD2CB11A9DD6D5006729D4 /* kactus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kactus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAD2CB51A9DD6D5006729D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BAD2CB61A9DD6D5006729D4 /* kactus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kactus.h; sourceTree = "<group>"; };
@@ -50,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B9E99C41A9DE8BC0001F496 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */,
+				2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		2BAD2CA71A9DD6D5006729D4 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +84,7 @@
 		2BAD2CB31A9DD6D5006729D4 /* kactus */ = {
 			isa = PBXGroup;
 			children = (
+				2B9E99C41A9DE8BC0001F496 /* Category */,
 				2BAD2CB61A9DD6D5006729D4 /* kactus.h */,
 				2BAD2CB41A9DD6D5006729D4 /* Supporting Files */,
 			);
@@ -109,6 +123,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9E99C71A9DE8CB0001F496 /* KTUIColor+Utility.h in Headers */,
 				2BAD2CB71A9DD6D5006729D4 /* kactus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "kactus" */;
+			buildConfigurationList = 2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "Kactus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9E99C81A9DE8CB0001F496 /* KTUIColor+Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "kactus" */ = {
+		2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "Kactus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BAD2CC51A9DD6D6006729D4 /* Debug */,
@@ -394,6 +410,7 @@
 				2BAD2CC91A9DD6D6006729D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BAD2CCA1A9DD6D6006729D4 /* Build configuration list for PBXNativeTarget "kactusTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +419,7 @@
 				2BAD2CCC1A9DD6D6006729D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
