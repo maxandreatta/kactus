@@ -1,20 +1,13 @@
-Pod::Spec.new do |s|
-  s.name         = 'kactus'
-  s.version      = '1.0'
-  s.license      = 'MIT'
-  s.homepage     = 'https://github.com/maxandreatta/kactus'
-  s.authors      =  'Andreatta Massimiliano'
-  s.summary      = '<#Summary (Up to 140 characters#>'
-
-# Source Info
-  s.platform     =  :ios, ''
-  s.source       =  :git => 'git://github.com/maxandreatta/kactus.git', :tag => 'v1.0'
-  s.source_files = 'Library/*'
-# s.framework    =  ''
-  s.requires_arc = true
-  
-# Pod Dependencies
-
-# s.dependency 'SocketRocket'
-
+Pod::Spec.new do |spec|
+    spec.name = 'kactus'
+    spec.version = '1.0.2'
+    spec.authors = { 'Andreatta Massimiliano' => 'massimiliano.andreatta@gmail.com' }
+    spec.homepage = 'https://github.com/maxandreatta/kactus'
+    spec.summary = 'A framework for iOS'
+    spec.license = { :type => 'MIT' }
+    spec.requires_arc = true
+    spec.source = { :git => 'https://github.com/maxandreatta/kactus.git', :tag => "#{spec.version}" }
+    spec.source_files = 'kactus/*.{h,m}'
+# spec.framework = 'UIKit', 'QuartzCore', 'Foundation'
+    spec.platform = :ios, '7.0'
 end
