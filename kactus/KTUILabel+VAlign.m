@@ -11,7 +11,7 @@
 
 @implementation UILabel (VAlign)
 
-- (void) setVerticalAlignmentTop
+- (void)setVerticalAlignmentTop
 {
     CGSize textSize = [self.text sizeWithFont:self.font
                             constrainedToSize:self.frame.size
