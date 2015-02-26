@@ -7,6 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C1E1641A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1621A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h */; };
+		27C1E1651A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1631A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m */; };
+		27C1E1681A9F18600035C02C /* KTNSString+IPValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1661A9F18600035C02C /* KTNSString+IPValidation.h */; };
+		27C1E1691A9F18600035C02C /* KTNSString+IPValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1671A9F18600035C02C /* KTNSString+IPValidation.m */; };
+		27C1E16C1A9F18850035C02C /* KTNSThread+ManyObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E16A1A9F18850035C02C /* KTNSThread+ManyObjects.h */; };
+		27C1E16D1A9F18850035C02C /* KTNSThread+ManyObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E16B1A9F18850035C02C /* KTNSThread+ManyObjects.m */; };
+		27C1E1701A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E16E1A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.h */; };
+		27C1E1711A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E16F1A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.m */; };
+		27C1E1741A9F190F0035C02C /* KTUIView+JTViewToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1721A9F190F0035C02C /* KTUIView+JTViewToImage.h */; };
+		27C1E1751A9F190F0035C02C /* KTUIView+JTViewToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1731A9F190F0035C02C /* KTUIView+JTViewToImage.m */; };
+		27C1E17E1A9F1A5A0035C02C /* KTNetworkUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E17C1A9F1A5A0035C02C /* KTNetworkUtility.h */; };
+		27C1E17F1A9F1A5A0035C02C /* KTNetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E17D1A9F1A5A0035C02C /* KTNetworkUtility.m */; };
+		27C1E1821A9F1A620035C02C /* KTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1801A9F1A620035C02C /* KTUtility.h */; };
+		27C1E1831A9F1A620035C02C /* KTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1811A9F1A620035C02C /* KTUtility.m */; };
+		27C1E1861A9F1A7C0035C02C /* KTLocalizationSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1841A9F1A7C0035C02C /* KTLocalizationSystem.h */; };
+		27C1E1871A9F1A7C0035C02C /* KTLocalizationSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1851A9F1A7C0035C02C /* KTLocalizationSystem.m */; };
+		27C1E18A1A9F1A8E0035C02C /* SystemServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1881A9F1A8E0035C02C /* SystemServices.h */; };
+		27C1E18B1A9F1A8E0035C02C /* SystemServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1891A9F1A8E0035C02C /* SystemServices.m */; };
+		27C1E1AC1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E18D1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.h */; };
+		27C1E1AD1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E18E1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.m */; };
+		27C1E1AE1A9F1AA20035C02C /* SSAccelerometerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E18F1A9F1AA20035C02C /* SSAccelerometerInfo.h */; };
+		27C1E1AF1A9F1AA20035C02C /* SSAccelerometerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1901A9F1AA20035C02C /* SSAccelerometerInfo.m */; };
+		27C1E1B01A9F1AA20035C02C /* SSAccessoryInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1911A9F1AA20035C02C /* SSAccessoryInfo.h */; };
+		27C1E1B11A9F1AA20035C02C /* SSAccessoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1921A9F1AA20035C02C /* SSAccessoryInfo.m */; };
+		27C1E1B21A9F1AA20035C02C /* SSApplicationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1931A9F1AA20035C02C /* SSApplicationInfo.h */; };
+		27C1E1B31A9F1AA20035C02C /* SSApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1941A9F1AA20035C02C /* SSApplicationInfo.m */; };
+		27C1E1B41A9F1AA20035C02C /* SSBatteryInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1951A9F1AA20035C02C /* SSBatteryInfo.h */; };
+		27C1E1B51A9F1AA20035C02C /* SSBatteryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1961A9F1AA20035C02C /* SSBatteryInfo.m */; };
+		27C1E1B61A9F1AA20035C02C /* SSCarrierInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1971A9F1AA20035C02C /* SSCarrierInfo.h */; };
+		27C1E1B71A9F1AA20035C02C /* SSCarrierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1981A9F1AA20035C02C /* SSCarrierInfo.m */; };
+		27C1E1B81A9F1AA20035C02C /* SSDiskInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1991A9F1AA20035C02C /* SSDiskInfo.h */; };
+		27C1E1B91A9F1AA20035C02C /* SSDiskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E19A1A9F1AA20035C02C /* SSDiskInfo.m */; };
+		27C1E1BA1A9F1AA20035C02C /* SSHardwareInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E19B1A9F1AA20035C02C /* SSHardwareInfo.h */; };
+		27C1E1BB1A9F1AA20035C02C /* SSHardwareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E19C1A9F1AA20035C02C /* SSHardwareInfo.m */; };
+		27C1E1BC1A9F1AA20035C02C /* SSJailbreakCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E19D1A9F1AA20035C02C /* SSJailbreakCheck.h */; };
+		27C1E1BD1A9F1AA20035C02C /* SSJailbreakCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E19E1A9F1AA20035C02C /* SSJailbreakCheck.m */; };
+		27C1E1BE1A9F1AA20035C02C /* SSLocalizationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E19F1A9F1AA20035C02C /* SSLocalizationInfo.h */; };
+		27C1E1BF1A9F1AA20035C02C /* SSLocalizationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1A01A9F1AA20035C02C /* SSLocalizationInfo.m */; };
+		27C1E1C01A9F1AA20035C02C /* SSMemoryInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1A11A9F1AA20035C02C /* SSMemoryInfo.h */; };
+		27C1E1C11A9F1AA20035C02C /* SSMemoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1A21A9F1AA20035C02C /* SSMemoryInfo.m */; };
+		27C1E1C21A9F1AA20035C02C /* SSNetworkInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1A31A9F1AA20035C02C /* SSNetworkInfo.h */; };
+		27C1E1C31A9F1AA20035C02C /* SSNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1A41A9F1AA20035C02C /* SSNetworkInfo.m */; };
+		27C1E1C41A9F1AA20035C02C /* SSProcessInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1A51A9F1AA20035C02C /* SSProcessInfo.h */; };
+		27C1E1C51A9F1AA20035C02C /* SSProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1A61A9F1AA20035C02C /* SSProcessInfo.m */; };
+		27C1E1C61A9F1AA20035C02C /* SSProcessorInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1A71A9F1AA20035C02C /* SSProcessorInfo.h */; };
+		27C1E1C71A9F1AA20035C02C /* SSProcessorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1A81A9F1AA20035C02C /* SSProcessorInfo.m */; };
+		27C1E1C81A9F1AA20035C02C /* SSUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1A91A9F1AA20035C02C /* SSUUID.h */; };
+		27C1E1C91A9F1AA20035C02C /* SSUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1AA1A9F1AA20035C02C /* SSUUID.m */; };
+		27C1E1CA1A9F1AA20035C02C /* SystemServicesConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1AB1A9F1AA20035C02C /* SystemServicesConstants.h */; };
+		27C1E1CD1A9F1ADB0035C02C /* KTUILabelWithPadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1CB1A9F1ADB0035C02C /* KTUILabelWithPadding.h */; };
+		27C1E1CE1A9F1ADB0035C02C /* KTUILabelWithPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1CC1A9F1ADB0035C02C /* KTUILabelWithPadding.m */; };
 		2B2A5E781A9DFFE700A12B80 /* KTUIImage+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2A5E761A9DFFE700A12B80 /* KTUIImage+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B2A5E791A9DFFE700A12B80 /* KTUIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A5E771A9DFFE700A12B80 /* KTUIImage+Utility.m */; };
 		2B2A5E841A9E005C00A12B80 /* KTNSDate+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2A5E7A1A9E005C00A12B80 /* KTNSDate+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +88,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27C1E1621A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTCAGradientLayer+SJSGradients.h"; sourceTree = "<group>"; };
+		27C1E1631A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTCAGradientLayer+SJSGradients.m"; sourceTree = "<group>"; };
+		27C1E1661A9F18600035C02C /* KTNSString+IPValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSString+IPValidation.h"; sourceTree = "<group>"; };
+		27C1E1671A9F18600035C02C /* KTNSString+IPValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTNSString+IPValidation.m"; sourceTree = "<group>"; };
+		27C1E16A1A9F18850035C02C /* KTNSThread+ManyObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSThread+ManyObjects.h"; sourceTree = "<group>"; };
+		27C1E16B1A9F18850035C02C /* KTNSThread+ManyObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTNSThread+ManyObjects.m"; sourceTree = "<group>"; };
+		27C1E16E1A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIImagePickerController+NonRotating.h"; sourceTree = "<group>"; };
+		27C1E16F1A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIImagePickerController+NonRotating.m"; sourceTree = "<group>"; };
+		27C1E1721A9F190F0035C02C /* KTUIView+JTViewToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIView+JTViewToImage.h"; sourceTree = "<group>"; };
+		27C1E1731A9F190F0035C02C /* KTUIView+JTViewToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIView+JTViewToImage.m"; sourceTree = "<group>"; };
+		27C1E17C1A9F1A5A0035C02C /* KTNetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTNetworkUtility.h; sourceTree = "<group>"; };
+		27C1E17D1A9F1A5A0035C02C /* KTNetworkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTNetworkUtility.m; sourceTree = "<group>"; };
+		27C1E1801A9F1A620035C02C /* KTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUtility.h; sourceTree = "<group>"; };
+		27C1E1811A9F1A620035C02C /* KTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUtility.m; sourceTree = "<group>"; };
+		27C1E1841A9F1A7C0035C02C /* KTLocalizationSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTLocalizationSystem.h; sourceTree = "<group>"; };
+		27C1E1851A9F1A7C0035C02C /* KTLocalizationSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTLocalizationSystem.m; sourceTree = "<group>"; };
+		27C1E1881A9F1A8E0035C02C /* SystemServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemServices.h; sourceTree = "<group>"; };
+		27C1E1891A9F1A8E0035C02C /* SystemServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemServices.m; sourceTree = "<group>"; };
+		27C1E18D1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlockAfterDelay.h"; sourceTree = "<group>"; };
+		27C1E18E1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformBlockAfterDelay.m"; sourceTree = "<group>"; };
+		27C1E18F1A9F1AA20035C02C /* SSAccelerometerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAccelerometerInfo.h; sourceTree = "<group>"; };
+		27C1E1901A9F1AA20035C02C /* SSAccelerometerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAccelerometerInfo.m; sourceTree = "<group>"; };
+		27C1E1911A9F1AA20035C02C /* SSAccessoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAccessoryInfo.h; sourceTree = "<group>"; };
+		27C1E1921A9F1AA20035C02C /* SSAccessoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAccessoryInfo.m; sourceTree = "<group>"; };
+		27C1E1931A9F1AA20035C02C /* SSApplicationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSApplicationInfo.h; sourceTree = "<group>"; };
+		27C1E1941A9F1AA20035C02C /* SSApplicationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSApplicationInfo.m; sourceTree = "<group>"; };
+		27C1E1951A9F1AA20035C02C /* SSBatteryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBatteryInfo.h; sourceTree = "<group>"; };
+		27C1E1961A9F1AA20035C02C /* SSBatteryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBatteryInfo.m; sourceTree = "<group>"; };
+		27C1E1971A9F1AA20035C02C /* SSCarrierInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCarrierInfo.h; sourceTree = "<group>"; };
+		27C1E1981A9F1AA20035C02C /* SSCarrierInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCarrierInfo.m; sourceTree = "<group>"; };
+		27C1E1991A9F1AA20035C02C /* SSDiskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDiskInfo.h; sourceTree = "<group>"; };
+		27C1E19A1A9F1AA20035C02C /* SSDiskInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDiskInfo.m; sourceTree = "<group>"; };
+		27C1E19B1A9F1AA20035C02C /* SSHardwareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHardwareInfo.h; sourceTree = "<group>"; };
+		27C1E19C1A9F1AA20035C02C /* SSHardwareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHardwareInfo.m; sourceTree = "<group>"; };
+		27C1E19D1A9F1AA20035C02C /* SSJailbreakCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJailbreakCheck.h; sourceTree = "<group>"; };
+		27C1E19E1A9F1AA20035C02C /* SSJailbreakCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJailbreakCheck.m; sourceTree = "<group>"; };
+		27C1E19F1A9F1AA20035C02C /* SSLocalizationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocalizationInfo.h; sourceTree = "<group>"; };
+		27C1E1A01A9F1AA20035C02C /* SSLocalizationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocalizationInfo.m; sourceTree = "<group>"; };
+		27C1E1A11A9F1AA20035C02C /* SSMemoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMemoryInfo.h; sourceTree = "<group>"; };
+		27C1E1A21A9F1AA20035C02C /* SSMemoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMemoryInfo.m; sourceTree = "<group>"; };
+		27C1E1A31A9F1AA20035C02C /* SSNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetworkInfo.h; sourceTree = "<group>"; };
+		27C1E1A41A9F1AA20035C02C /* SSNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNetworkInfo.m; sourceTree = "<group>"; };
+		27C1E1A51A9F1AA20035C02C /* SSProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProcessInfo.h; sourceTree = "<group>"; };
+		27C1E1A61A9F1AA20035C02C /* SSProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProcessInfo.m; sourceTree = "<group>"; };
+		27C1E1A71A9F1AA20035C02C /* SSProcessorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProcessorInfo.h; sourceTree = "<group>"; };
+		27C1E1A81A9F1AA20035C02C /* SSProcessorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProcessorInfo.m; sourceTree = "<group>"; };
+		27C1E1A91A9F1AA20035C02C /* SSUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSUUID.h; sourceTree = "<group>"; };
+		27C1E1AA1A9F1AA20035C02C /* SSUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSUUID.m; sourceTree = "<group>"; };
+		27C1E1AB1A9F1AA20035C02C /* SystemServicesConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemServicesConstants.h; sourceTree = "<group>"; };
+		27C1E1CB1A9F1ADB0035C02C /* KTUILabelWithPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUILabelWithPadding.h; sourceTree = "<group>"; };
+		27C1E1CC1A9F1ADB0035C02C /* KTUILabelWithPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUILabelWithPadding.m; sourceTree = "<group>"; };
 		2B2A5E761A9DFFE700A12B80 /* KTUIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIImage+Utility.h"; sourceTree = "<group>"; };
 		2B2A5E771A9DFFE700A12B80 /* KTUIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIImage+Utility.m"; sourceTree = "<group>"; };
 		2B2A5E7A1A9E005C00A12B80 /* KTNSDate+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSDate+Utility.h"; sourceTree = "<group>"; };
@@ -78,23 +180,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C1E1761A9F19CB0035C02C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				27C1E17B1A9F1A490035C02C /* Utility */,
+				27C1E17A1A9F1A390035C02C /* Networking */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		27C1E1771A9F19DC0035C02C /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				27C1E1841A9F1A7C0035C02C /* KTLocalizationSystem.h */,
+				27C1E1851A9F1A7C0035C02C /* KTLocalizationSystem.m */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		27C1E1781A9F19E80035C02C /* SystemServicesInfo */ = {
+			isa = PBXGroup;
+			children = (
+				27C1E18C1A9F1A910035C02C /* Utilities */,
+				27C1E1881A9F1A8E0035C02C /* SystemServices.h */,
+				27C1E1891A9F1A8E0035C02C /* SystemServices.m */,
+			);
+			name = SystemServicesInfo;
+			sourceTree = "<group>";
+		};
+		27C1E1791A9F1A100035C02C /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				27C1E1CB1A9F1ADB0035C02C /* KTUILabelWithPadding.h */,
+				27C1E1CC1A9F1ADB0035C02C /* KTUILabelWithPadding.m */,
+			);
+			name = SubClass;
+			sourceTree = "<group>";
+		};
+		27C1E17A1A9F1A390035C02C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				27C1E17C1A9F1A5A0035C02C /* KTNetworkUtility.h */,
+				27C1E17D1A9F1A5A0035C02C /* KTNetworkUtility.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		27C1E17B1A9F1A490035C02C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				27C1E1801A9F1A620035C02C /* KTUtility.h */,
+				27C1E1811A9F1A620035C02C /* KTUtility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		27C1E18C1A9F1A910035C02C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				27C1E18D1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.h */,
+				27C1E18E1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.m */,
+				27C1E18F1A9F1AA20035C02C /* SSAccelerometerInfo.h */,
+				27C1E1901A9F1AA20035C02C /* SSAccelerometerInfo.m */,
+				27C1E1911A9F1AA20035C02C /* SSAccessoryInfo.h */,
+				27C1E1921A9F1AA20035C02C /* SSAccessoryInfo.m */,
+				27C1E1931A9F1AA20035C02C /* SSApplicationInfo.h */,
+				27C1E1941A9F1AA20035C02C /* SSApplicationInfo.m */,
+				27C1E1951A9F1AA20035C02C /* SSBatteryInfo.h */,
+				27C1E1961A9F1AA20035C02C /* SSBatteryInfo.m */,
+				27C1E1971A9F1AA20035C02C /* SSCarrierInfo.h */,
+				27C1E1981A9F1AA20035C02C /* SSCarrierInfo.m */,
+				27C1E1991A9F1AA20035C02C /* SSDiskInfo.h */,
+				27C1E19A1A9F1AA20035C02C /* SSDiskInfo.m */,
+				27C1E19B1A9F1AA20035C02C /* SSHardwareInfo.h */,
+				27C1E19C1A9F1AA20035C02C /* SSHardwareInfo.m */,
+				27C1E19D1A9F1AA20035C02C /* SSJailbreakCheck.h */,
+				27C1E19E1A9F1AA20035C02C /* SSJailbreakCheck.m */,
+				27C1E19F1A9F1AA20035C02C /* SSLocalizationInfo.h */,
+				27C1E1A01A9F1AA20035C02C /* SSLocalizationInfo.m */,
+				27C1E1A11A9F1AA20035C02C /* SSMemoryInfo.h */,
+				27C1E1A21A9F1AA20035C02C /* SSMemoryInfo.m */,
+				27C1E1A31A9F1AA20035C02C /* SSNetworkInfo.h */,
+				27C1E1A41A9F1AA20035C02C /* SSNetworkInfo.m */,
+				27C1E1A51A9F1AA20035C02C /* SSProcessInfo.h */,
+				27C1E1A61A9F1AA20035C02C /* SSProcessInfo.m */,
+				27C1E1A71A9F1AA20035C02C /* SSProcessorInfo.h */,
+				27C1E1A81A9F1AA20035C02C /* SSProcessorInfo.m */,
+				27C1E1A91A9F1AA20035C02C /* SSUUID.h */,
+				27C1E1AA1A9F1AA20035C02C /* SSUUID.m */,
+				27C1E1AB1A9F1AA20035C02C /* SystemServicesConstants.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		2B9E99C41A9DE8BC0001F496 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				27C1E1621A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h */,
+				27C1E1631A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m */,
 				2B2A5E7A1A9E005C00A12B80 /* KTNSDate+Utility.h */,
 				2B2A5E7B1A9E005C00A12B80 /* KTNSDate+Utility.m */,
+				27C1E1661A9F18600035C02C /* KTNSString+IPValidation.h */,
+				27C1E1671A9F18600035C02C /* KTNSString+IPValidation.m */,
 				2B2A5E7C1A9E005C00A12B80 /* KTNSString+LeftPadding.h */,
 				2B2A5E7D1A9E005C00A12B80 /* KTNSString+LeftPadding.m */,
 				2B2A5E7E1A9E005C00A12B80 /* KTNSString+Utility.h */,
 				2B2A5E7F1A9E005C00A12B80 /* KTNSString+Utility.m */,
-				2B2A5E801A9E005C00A12B80 /* KTUILabel+VAlign.h */,
-				2B2A5E811A9E005C00A12B80 /* KTUILabel+VAlign.m */,
-				2B2A5E821A9E005C00A12B80 /* KTUIView+Utility.h */,
-				2B2A5E831A9E005C00A12B80 /* KTUIView+Utility.m */,
-				2B2A5E761A9DFFE700A12B80 /* KTUIImage+Utility.h */,
-				2B2A5E771A9DFFE700A12B80 /* KTUIImage+Utility.m */,
+				27C1E16A1A9F18850035C02C /* KTNSThread+ManyObjects.h */,
+				27C1E16B1A9F18850035C02C /* KTNSThread+ManyObjects.m */,
 				2B9E99C51A9DE8CB0001F496 /* KTUIColor+Utility.h */,
 				2B9E99C61A9DE8CB0001F496 /* KTUIColor+Utility.m */,
+				2B2A5E761A9DFFE700A12B80 /* KTUIImage+Utility.h */,
+				2B2A5E771A9DFFE700A12B80 /* KTUIImage+Utility.m */,
+				27C1E16E1A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.h */,
+				27C1E16F1A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.m */,
+				2B2A5E801A9E005C00A12B80 /* KTUILabel+VAlign.h */,
+				2B2A5E811A9E005C00A12B80 /* KTUILabel+VAlign.m */,
+				27C1E1721A9F190F0035C02C /* KTUIView+JTViewToImage.h */,
+				27C1E1731A9F190F0035C02C /* KTUIView+JTViewToImage.m */,
+				2B2A5E821A9E005C00A12B80 /* KTUIView+Utility.h */,
+				2B2A5E831A9E005C00A12B80 /* KTUIView+Utility.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -121,8 +326,12 @@
 			isa = PBXGroup;
 			children = (
 				2B9E99C41A9DE8BC0001F496 /* Category */,
+				27C1E1761A9F19CB0035C02C /* Class */,
 				2BAD2CB61A9DD6D5006729D4 /* kactus.h */,
+				27C1E1771A9F19DC0035C02C /* Localization */,
+				27C1E1791A9F1A100035C02C /* SubClass */,
 				2BAD2CB41A9DD6D5006729D4 /* Supporting Files */,
+				27C1E1781A9F19E80035C02C /* SystemServicesInfo */,
 			);
 			path = kactus;
 			sourceTree = "<group>";
@@ -160,12 +369,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B2A5E841A9E005C00A12B80 /* KTNSDate+Utility.h in Headers */,
+				27C1E1B01A9F1AA20035C02C /* SSAccessoryInfo.h in Headers */,
+				27C1E1C41A9F1AA20035C02C /* SSProcessInfo.h in Headers */,
+				27C1E1B41A9F1AA20035C02C /* SSBatteryInfo.h in Headers */,
+				27C1E1741A9F190F0035C02C /* KTUIView+JTViewToImage.h in Headers */,
 				2B2A5E781A9DFFE700A12B80 /* KTUIImage+Utility.h in Headers */,
+				27C1E1BC1A9F1AA20035C02C /* SSJailbreakCheck.h in Headers */,
+				27C1E1C61A9F1AA20035C02C /* SSProcessorInfo.h in Headers */,
+				27C1E1641A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h in Headers */,
+				27C1E1CD1A9F1ADB0035C02C /* KTUILabelWithPadding.h in Headers */,
+				27C1E1B21A9F1AA20035C02C /* SSApplicationInfo.h in Headers */,
 				2B2A5E881A9E005C00A12B80 /* KTNSString+Utility.h in Headers */,
+				27C1E1AE1A9F1AA20035C02C /* SSAccelerometerInfo.h in Headers */,
+				27C1E1681A9F18600035C02C /* KTNSString+IPValidation.h in Headers */,
 				2B2A5E861A9E005C00A12B80 /* KTNSString+LeftPadding.h in Headers */,
+				27C1E1821A9F1A620035C02C /* KTUtility.h in Headers */,
+				27C1E1861A9F1A7C0035C02C /* KTLocalizationSystem.h in Headers */,
 				2B2A5E8C1A9E005C00A12B80 /* KTUIView+Utility.h in Headers */,
+				27C1E1C01A9F1AA20035C02C /* SSMemoryInfo.h in Headers */,
+				27C1E18A1A9F1A8E0035C02C /* SystemServices.h in Headers */,
+				27C1E1BE1A9F1AA20035C02C /* SSLocalizationInfo.h in Headers */,
+				27C1E1B81A9F1AA20035C02C /* SSDiskInfo.h in Headers */,
+				27C1E1CA1A9F1AA20035C02C /* SystemServicesConstants.h in Headers */,
+				27C1E16C1A9F18850035C02C /* KTNSThread+ManyObjects.h in Headers */,
+				27C1E1701A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.h in Headers */,
 				2B2A5E8A1A9E005C00A12B80 /* KTUILabel+VAlign.h in Headers */,
 				2B9E99C71A9DE8CB0001F496 /* KTUIColor+Utility.h in Headers */,
+				27C1E1BA1A9F1AA20035C02C /* SSHardwareInfo.h in Headers */,
+				27C1E1AC1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.h in Headers */,
+				27C1E1C81A9F1AA20035C02C /* SSUUID.h in Headers */,
+				27C1E1B61A9F1AA20035C02C /* SSCarrierInfo.h in Headers */,
+				27C1E1C21A9F1AA20035C02C /* SSNetworkInfo.h in Headers */,
+				27C1E17E1A9F1A5A0035C02C /* KTNetworkUtility.h in Headers */,
 				2BAD2CB71A9DD6D5006729D4 /* kactus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,7 +461,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "Kactus" */;
+			buildConfigurationList = 2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "kactus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -266,13 +501,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C1E1CE1A9F1ADB0035C02C /* KTUILabelWithPadding.m in Sources */,
+				27C1E1AD1A9F1AA20035C02C /* NSObject+PerformBlockAfterDelay.m in Sources */,
 				2B2A5E791A9DFFE700A12B80 /* KTUIImage+Utility.m in Sources */,
+				27C1E1B71A9F1AA20035C02C /* SSCarrierInfo.m in Sources */,
 				2B2A5E851A9E005C00A12B80 /* KTNSDate+Utility.m in Sources */,
+				27C1E1AF1A9F1AA20035C02C /* SSAccelerometerInfo.m in Sources */,
+				27C1E17F1A9F1A5A0035C02C /* KTNetworkUtility.m in Sources */,
+				27C1E1B51A9F1AA20035C02C /* SSBatteryInfo.m in Sources */,
+				27C1E1691A9F18600035C02C /* KTNSString+IPValidation.m in Sources */,
+				27C1E18B1A9F1A8E0035C02C /* SystemServices.m in Sources */,
+				27C1E1831A9F1A620035C02C /* KTUtility.m in Sources */,
 				2B2A5E871A9E005C00A12B80 /* KTNSString+LeftPadding.m in Sources */,
+				27C1E1B91A9F1AA20035C02C /* SSDiskInfo.m in Sources */,
+				27C1E1BD1A9F1AA20035C02C /* SSJailbreakCheck.m in Sources */,
 				2B2A5E891A9E005C00A12B80 /* KTNSString+Utility.m in Sources */,
+				27C1E1C31A9F1AA20035C02C /* SSNetworkInfo.m in Sources */,
+				27C1E1B11A9F1AA20035C02C /* SSAccessoryInfo.m in Sources */,
+				27C1E1651A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m in Sources */,
+				27C1E1BF1A9F1AA20035C02C /* SSLocalizationInfo.m in Sources */,
+				27C1E1C11A9F1AA20035C02C /* SSMemoryInfo.m in Sources */,
+				27C1E1B31A9F1AA20035C02C /* SSApplicationInfo.m in Sources */,
+				27C1E16D1A9F18850035C02C /* KTNSThread+ManyObjects.m in Sources */,
+				27C1E1C91A9F1AA20035C02C /* SSUUID.m in Sources */,
 				2B9E99C81A9DE8CB0001F496 /* KTUIColor+Utility.m in Sources */,
+				27C1E1C71A9F1AA20035C02C /* SSProcessorInfo.m in Sources */,
+				27C1E1751A9F190F0035C02C /* KTUIView+JTViewToImage.m in Sources */,
+				27C1E1BB1A9F1AA20035C02C /* SSHardwareInfo.m in Sources */,
+				27C1E1711A9F18EE0035C02C /* KTUIImagePickerController+NonRotating.m in Sources */,
 				2B2A5E8D1A9E005C00A12B80 /* KTUIView+Utility.m in Sources */,
 				2B2A5E8B1A9E005C00A12B80 /* KTUILabel+VAlign.m in Sources */,
+				27C1E1C51A9F1AA20035C02C /* SSProcessInfo.m in Sources */,
+				27C1E1871A9F1A7C0035C02C /* KTLocalizationSystem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +702,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "Kactus" */ = {
+		2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "kactus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BAD2CC51A9DD6D6006729D4 /* Debug */,
