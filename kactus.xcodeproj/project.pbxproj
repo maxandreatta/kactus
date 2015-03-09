@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271C6E1B1AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C6E191AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.h */; };
+		271C6E1C1AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C6E1A1AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.m */; };
 		27C1E1641A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1621A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h */; };
 		27C1E1651A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1E1631A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m */; };
 		27C1E1681A9F18600035C02C /* KTNSString+IPValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1E1661A9F18600035C02C /* KTNSString+IPValidation.h */; };
@@ -88,6 +90,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271C6E191AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSMutableAttributedString+HTMLParsing.h"; sourceTree = "<group>"; };
+		271C6E1A1AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTNSMutableAttributedString+HTMLParsing.m"; sourceTree = "<group>"; };
 		27C1E1621A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTCAGradientLayer+SJSGradients.h"; sourceTree = "<group>"; };
 		27C1E1631A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTCAGradientLayer+SJSGradients.m"; sourceTree = "<group>"; };
 		27C1E1661A9F18600035C02C /* KTNSString+IPValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSString+IPValidation.h"; sourceTree = "<group>"; };
@@ -280,6 +284,8 @@
 				27C1E1631A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.m */,
 				2B2A5E7A1A9E005C00A12B80 /* KTNSDate+Utility.h */,
 				2B2A5E7B1A9E005C00A12B80 /* KTNSDate+Utility.m */,
+				271C6E191AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.h */,
+				271C6E1A1AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.m */,
 				27C1E1661A9F18600035C02C /* KTNSString+IPValidation.h */,
 				27C1E1671A9F18600035C02C /* KTNSString+IPValidation.m */,
 				2B2A5E7C1A9E005C00A12B80 /* KTNSString+LeftPadding.h */,
@@ -370,6 +376,7 @@
 			files = (
 				2B2A5E841A9E005C00A12B80 /* KTNSDate+Utility.h in Headers */,
 				27C1E1B01A9F1AA20035C02C /* SSAccessoryInfo.h in Headers */,
+				271C6E1B1AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.h in Headers */,
 				27C1E1C41A9F1AA20035C02C /* SSProcessInfo.h in Headers */,
 				27C1E1B41A9F1AA20035C02C /* SSBatteryInfo.h in Headers */,
 				27C1E1741A9F190F0035C02C /* KTUIView+JTViewToImage.h in Headers */,
@@ -532,6 +539,7 @@
 				2B2A5E8D1A9E005C00A12B80 /* KTUIView+Utility.m in Sources */,
 				2B2A5E8B1A9E005C00A12B80 /* KTUILabel+VAlign.m in Sources */,
 				27C1E1C51A9F1AA20035C02C /* SSProcessInfo.m in Sources */,
+				271C6E1C1AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.m in Sources */,
 				27C1E1871A9F1A7C0035C02C /* KTLocalizationSystem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
