@@ -1,4 +1,7 @@
 # kactus
 
-pod spec lint  \n
+pod spec lint
+
+
+
 pod trunk push
