@@ -23,3 +23,4 @@ FOUNDATION_EXPORT const unsigned char kactusVersionString[];
 #import "KTUILabel+VAlign.h"
 #import "KTUIView+Utility.h"
 #import "KTUIImage+Utility.h"
+#import "KTNSMutableAttributedString+HTMLParsing.h"
