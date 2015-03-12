@@ -16,6 +16,7 @@ FOUNDATION_EXPORT const unsigned char kactusVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <kactus/PublicHeader.h>
 
+#import "KTUtility.h"
 #import "KTNSDate+Utility.h"
 #import "KTUIColor+Utility.h"
 #import "KTNSString+LeftPadding.h"
