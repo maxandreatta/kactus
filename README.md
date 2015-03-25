@@ -1,7 +1,7 @@
 # kactus
 
-pod spec lint
+pod spec lint --allow-warnings
 
 
 
-pod trunk push
+pod trunk push --allow-warnings
