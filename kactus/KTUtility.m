@@ -152,6 +152,45 @@
     
 }
 
++ (void)showActivityIndicatorWithBackgroundViewToViewController:(UIViewController*)vc {
+    
+    UIView *viewParent = vc.view;
+    
+    UIView *viewBackgroundAlpha = [[UIView alloc] initWithFrame:viewParent.frame];
+    viewBackgroundAlpha.backgroundColor = [UIColor blackColor];
+    viewBackgroundAlpha.alpha = 0.3;
+    viewBackgroundAlpha.tag = 200;
+    
+    UIView *viewContainer = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 180, 60)];
+    viewContainer.backgroundColor = [UIColor colorWithHexString:@"f5f5f5" alpha:1.0f];
+    viewContainer.layer.cornerRadius = 8;
+    viewContainer.tag = 300;
+    
+    UIActivityIndicatorView *activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    activityView.center = viewContainer.center;
+    
+    CGRect viewFrame = vc.view.frame;
+    CGRect viewContainerFrame = viewContainer.frame;
+    viewContainerFrame.origin.x = (viewFrame.size.width / 2) - (viewContainerFrame.size.width / 2);
+    viewContainerFrame.origin.y = (viewFrame.size.height / 2) - (viewContainerFrame.size.height / 2);
+    viewContainer.frame = viewContainerFrame;
+    
+    [activityView startAnimating];
+    
+    [viewParent addSubview:viewBackgroundAlpha];
+    
+    [viewContainer addSubview:activityView];
+    [viewParent addSubview:viewContainer];
+    
+}
+
++ (void)hideActivityIndicatorWithBackgroundViewFromController:(UIViewController*)vc {
+    
+    [[vc.view viewWithTag:200] removeFromSuperview];
+    [[vc.view viewWithTag:300] removeFromSuperview];
+    
+}
+
 + (UIImageView*)showCustomIndicator:(UIView*)view {
     
     UIImageView* imageLoadingFrame = [[UIImageView alloc] initWithFrame:view.bounds];
@@ -210,6 +249,18 @@
     [[viewParent superview] insertSubview:viewGradient belowSubview:viewParent];
     
     return viewGradient;
+    
+}
+
++ (id)checkInParsing:(id)value {
+    
+    if(value == [NSNull null]) {
+        
+        return value = nil;
+        
+    }
+    
+    return value;
     
 }
 
