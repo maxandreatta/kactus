@@ -135,24 +135,18 @@
     CGFloat r;
     CGFloat g;
     CGFloat b;
-    
-    CGFloat components[3];
-    
-    [UIColor getRGBComponents:components forColor:colorReceveid];
-    
-    r = components[0] * 255;
-    g = components[1] * 255;
-    b = components[2] * 255;
+    [colorReceveid getRed:&r green:&g blue:&b alpha:nil];
     
     UIGraphicsBeginImageContextWithOptions(image.size, NO, image.scale);
     CGRect imageRect = CGRectMake(0.0f, 0.0f, image.size.width, image.size.height);
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGContextSetRGBFillColor(ctx,r / 255.0, g / 255.0, b / 255.0, a);
+    CGContextSetRGBFillColor(ctx,r, g, b, a);
     CGContextFillRect(ctx, imageRect);
     [image drawInRect:imageRect blendMode:kCGBlendModeDestinationIn alpha:a];
     UIImage* outImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return outImage;
+    
 }
 
 + (UIImage *) imageFromColor:(UIColor *)color
