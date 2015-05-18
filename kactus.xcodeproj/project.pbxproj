@@ -77,6 +77,9 @@
 		2BAD2CB71A9DD6D5006729D4 /* kactus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD2CB61A9DD6D5006729D4 /* kactus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BAD2CBD1A9DD6D6006729D4 /* kactus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAD2CB11A9DD6D5006729D4 /* kactus.framework */; };
 		2BAD2CC41A9DD6D6006729D4 /* kactusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD2CC31A9DD6D6006729D4 /* kactusTests.m */; };
+		2BB295101B0A1D830069B6D2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB2950F1B0A1D830069B6D2 /* Security.framework */; };
+		2BB295141B0A1E280069B6D2 /* KTKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB295121B0A1E280069B6D2 /* KTKeychain.h */; };
+		2BB295151B0A1E280069B6D2 /* KTKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB295131B0A1E280069B6D2 /* KTKeychain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +166,9 @@
 		2BAD2CBC1A9DD6D6006729D4 /* kactusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kactusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAD2CC21A9DD6D6006729D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BAD2CC31A9DD6D6006729D4 /* kactusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kactusTests.m; sourceTree = "<group>"; };
+		2BB2950F1B0A1D830069B6D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2BB295121B0A1E280069B6D2 /* KTKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKeychain.h; sourceTree = "<group>"; };
+		2BB295131B0A1E280069B6D2 /* KTKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTKeychain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB295101B0A1D830069B6D2 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +194,9 @@
 		27C1E1761A9F19CB0035C02C /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				27C1E17B1A9F1A490035C02C /* Utility */,
+				2BB295111B0A1DEB0069B6D2 /* Security */,
 				27C1E17A1A9F1A390035C02C /* Networking */,
+				27C1E17B1A9F1A490035C02C /* Utility */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -313,6 +321,7 @@
 		2BAD2CA71A9DD6D5006729D4 = {
 			isa = PBXGroup;
 			children = (
+				2BB2950F1B0A1D830069B6D2 /* Security.framework */,
 				2BAD2CB31A9DD6D5006729D4 /* kactus */,
 				2BAD2CC01A9DD6D6006729D4 /* kactusTests */,
 				2BAD2CB21A9DD6D5006729D4 /* Products */,
@@ -367,6 +376,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2BB295111B0A1DEB0069B6D2 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				2BB295121B0A1E280069B6D2 /* KTKeychain.h */,
+				2BB295131B0A1E280069B6D2 /* KTKeychain.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -382,6 +400,7 @@
 				27C1E1741A9F190F0035C02C /* KTUIView+JTViewToImage.h in Headers */,
 				2B2A5E781A9DFFE700A12B80 /* KTUIImage+Utility.h in Headers */,
 				27C1E1BC1A9F1AA20035C02C /* SSJailbreakCheck.h in Headers */,
+				2BB295141B0A1E280069B6D2 /* KTKeychain.h in Headers */,
 				27C1E1C61A9F1AA20035C02C /* SSProcessorInfo.h in Headers */,
 				27C1E1641A9F182A0035C02C /* KTCAGradientLayer+SJSGradients.h in Headers */,
 				27C1E1CD1A9F1ADB0035C02C /* KTUILabelWithPadding.h in Headers */,
@@ -468,7 +487,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "kactus" */;
+			buildConfigurationList = 2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "Kactus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -539,6 +558,7 @@
 				2B2A5E8D1A9E005C00A12B80 /* KTUIView+Utility.m in Sources */,
 				2B2A5E8B1A9E005C00A12B80 /* KTUILabel+VAlign.m in Sources */,
 				27C1E1C51A9F1AA20035C02C /* SSProcessInfo.m in Sources */,
+				2BB295151B0A1E280069B6D2 /* KTKeychain.m in Sources */,
 				271C6E1C1AAD9B67007C0801 /* KTNSMutableAttributedString+HTMLParsing.m in Sources */,
 				27C1E1871A9F1A7C0035C02C /* KTLocalizationSystem.m in Sources */,
 			);
@@ -710,7 +730,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "kactus" */ = {
+		2BAD2CAB1A9DD6D5006729D4 /* Build configuration list for PBXProject "Kactus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BAD2CC51A9DD6D6006729D4 /* Debug */,
